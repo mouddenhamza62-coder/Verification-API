@@ -1,0 +1,121 @@
+[
+  {
+    "tache": "Vérifier la présence de toutes les réclamations sur la PGR",
+    "objectif": "Assurer que toutes les réclamations sont enregistrées sur la Plateforme de Gestion des Réclamations (PGR)",
+    "methodologie": "Effectuer un contrôle journalier de la saisie des réclamations et utiliser le checklist de saisie obligatoire pour garantir la complétude des informations",
+    "risque": "Réclamation non saisie ou saisie incomplète\n(Exemples : réclamations saisies au niveau du registre dans les gares, réclamations verbales remontées par les ACT au niveau de leurs rapport circonstanciels …)",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier la présence d'une rubrique 'Aide' ou 'FAQ' sur le site web pour informer les clients des canaux de réclamation",
+    "objectif": "S'assurer que les clients sont conscients des différents canaux de réclamation disponibles",
+    "methodologie": "Analyser le site web, vérifier la présence d'une rubrique 'Aide' ou 'FAQ', et évaluer la clarté et la concision de l'information fournie",
+    "risque": "Risque que les clients ignorent les différents canaux de réclamation",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier l'efficacité du système de détection des doublons de réclamations",
+    "objectif": "S'assurer que le système de détection des doublons est configuré et fonctionnel pour éviter les réclamations doublonnées ou traitées plusieurs fois",
+    "methodologie": "Analyser les logs du système de détection des doublons, effectuer des tests de cas pour vérifier la détection des doublons, et évaluer l'efficacité du système",
+    "risque": "Réclamations doublonnées ou taités plusieurs fois suite à une soumission multi-canal",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier l'utilisation systématique des guides de catégorisation pour les traitements initiaux",
+    "objectif": "Assurer que les traitements initiaux sont correctement catégorisés en fonction des guides de catégorisation",
+    "methodologie": "Sélectionner au hasard 10 traitements initiaux, vérifier si les guides de catégorisation ont été utilisés, et si oui, vérifier si les traitements ont été correctement catégorisés",
+    "risque": "Mauvaise catégorisation ou traitement inapproprié",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier si la lettre d'attente est envoyée automatiquement à chaque réclamation enregistrée",
+    "objectif": "S'assurer que la lettre d'attente est envoyée à chaque client pour informer l'avancement de leur réclamation",
+    "methodologie": "Analyser les logs de la plateforme pour vérifier si les notifications sont envoyées automatiquement, et si non, identifier les causes de l'oubli",
+    "risque": "Oubli d’envoyer une lettre d’attente",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier la mise en œuvre de l'alerte automatique dans le cas de dépassement de délai",
+    "objectif": "S'assurer que l'alerte automatique est déclenchée dans les délais impartis",
+    "methodologie": "Analyser les logs de système pour vérifier la mise en œuvre de l'alerte automatique, effectuer des tests de dépassement de délai pour valider la fonctionnalité",
+    "risque": "Non respect des délais de traitement",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier si les réclamations sont correctement orientées vers les entités concernées",
+    "objectif": "Assurer que les réclamations sont traitées par les personnes compétentes",
+    "methodologie": "Analyser les dossiers de réclamation pour identifier les cas où les réclamations n'ont pas été dirigées vers l'entité concernée, et identifier les causes de ces erreurs",
+    "risque": "Réclamation non dirigée vers l'entité concernée",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier la mise en place des indicateurs de performance (KPI) pour les délais de réponse des entités impliquées",
+    "objectif": "Évaluer l'efficacité de la transmission des informations à l'entité concernée et identifier les retards ou absences de réponse",
+    "methodologie": "Analyser les données historiques, effectuer des entretiens avec les responsables des entités impliquées et évaluer la conformité avec les bonnes pratiques",
+    "risque": "Retard ou absence de réponse des entités impliquées",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier la présence d'indicateurs de performance (KPI) sur les délais de réponse et les escalades répétées",
+    "objectif": "Évaluer l'efficacité de la qualité du retour des entités concernées et identifier les domaines d'amélioration",
+    "methodologie": "Analyser les données de performance, effectuer des entretiens avec les entités concernées et recueillir des données quantitatives et qualitatives",
+    "risque": "Réponses imprécises ou inexploitable",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier la présence d'une matrice RACI claire dans la procédure d'enquête/escalade",
+    "objectif": "Assurer la clarté et la transparence dans la répartition des responsabilités",
+    "methodologie": "Analyser la procédure d'enquête/escalade, identifier les points de flottement et suggérer des améliorations pour clarifier les responsabilités",
+    "risque": "Flou dans la répartition des responsabilités",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier l'utilisation de modèles enrichis pour les réponses au client",
+    "objectif": "Assurer que les réponses au client sont adaptées et personnalisées",
+    "methodologie": "Analyser les modèles utilisés pour les réponses au client, vérifier leur utilisation correcte et s'assurer que les cas sensibles sont validés par un superviseur",
+    "risque": "Réponse inadaptée ou non personnalisée\nRisque de dégradation de l'image de l'ONCF",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier que les modèles enrichis sont utilisés pour toutes les réponses aux clients",
+    "objectif": "Assurer que les réponses sont envoyées dans les délais impartis",
+    "methodologie": "Analyser les processus de réponse au client, identifier les cas où les modèles enrichis ne sont pas utilisés et mettre en place des mesures correctives",
+    "risque": "Risque de dépassement des délais d'envoi des réponses aux clients",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier l'existence du champ \"preuve de traitement\" obligatoire pour toutes les clôtures sur la PGR",
+    "objectif": "Assurer que toutes les réclamations sont traitées effectivement avant leur clôture",
+    "methodologie": "Rechercher dans la base de données les enregistrements de clôture sans preuve de traitement, identifier les causes et proposer des correctifs",
+    "risque": "Réclamation clôturée sans traitement effectif",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier la disponibilité de la PGR et s'assurer qu'elle est configurée correctement pour l'automatisation du reporting",
+    "objectif": "Assurer la disponibilité et la configuration correcte de la PGR pour l'automatisation du reporting",
+    "methodologie": "Contrôler la liste des utilisateurs autorisés, vérifier les paramètres de configuration, et tester l'envoi automatique des synthèses hebdomadaires ou mensuelles",
+    "risque": "Retards dans les synthèses hebdomadaires ou mensuelles",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier la pertinence des KPIs en fonction des objectifs stratégiques de l'entreprise",
+    "objectif": "Assurer que les KPIs sont bien définis et mesurent les performances réelles de l'entreprise",
+    "methodologie": "Analyser les KPIs actuels, discuter avec les équipes concernées pour recueillir des informations et établir un plan d'action pour améliorer la définition des KPIs",
+    "risque": "KPIs trop généraux ou mal définis",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Analyser les réclamations récurrentes pour identifier les causes profondes",
+    "objectif": "Capitaliser les connaissances pour éviter la répétition des mêmes incidents",
+    "methodologie": "Revue mensuelle d'analyse thématique des réclamations, identification des tendances et des causes profondes, élaboration d'un plan d'action pour corriger les dysfonctionnements",
+    "risque": "Non-capitalisation sur les réclamations récurrentes\nRépétition des mêmes incidents sans actions correctives",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  },
+  {
+    "tache": "Vérifier l'existence d'un questionnaire de satisfaction post-traitement pour chaque réclamation",
+    "objectif": "Évaluer la mise en œuvre de la bonne pratique de lancement d'un questionnaire de satisfaction après traitement de chaque réclamation",
+    "methodologie": "Analyser les processus de traitement des réclamations, vérifier la présence d'un questionnaire de satisfaction dans les documents de suivi, et interviewer les agents chargés du traitement des réclamations",
+    "risque": "Absence de mesure de satisfaction post-traitement",
+    "mission_id": "MISSION-RECLAM-2026-001"
+  }
+]
